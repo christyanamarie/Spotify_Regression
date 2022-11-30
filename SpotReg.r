@@ -44,8 +44,8 @@ ui <- fluidPage(
               tabPanel
               (
                 "Main", 
+                img(src='spotify.png', height="15%", width="15%", align = "right"),
                 h2("Spotify Regression", align = "center"),
-                br(),
                 h3("Research Question: "), 
                 h4("Is it possible to predict a song’s popularity from its key features?"),
                 br(),
